@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
+</head>
+<body>
+    <label for="cars">Choose levels:</label>
+
+    <select name="ids" id="level">
+      <option value="noob">Beginner</option>
+      <option value="medium">Intermediate</option>
+      <option value="pro">Pro</option>
+      <option value="advance">Advance</option>
+    </select>
+    <button type="submit">Play Again</button>
+    <canvas id="myCanvas"></canvas>
+     <div class="img">
+    <!-- characters -->
+        <img src="image/player.png" id="player" >
+        <img src="image/angler1.png" id="angler1">
+        <img src="image/angler2.png" id="angler2">
+        <img src="image/lucky.png" id="lucky">
+        <img src="image/hivewhale.png" id="hive">
+        <img src="image/drone.png" id="drone">
+
+        
+
+    <!-- props -->
+    <img src="image/projectile.png" id="projectile">
+    <img src="image/gears.png" alt="" id="gears">
+
+    <!-- enviromen -->
+    <img src="image/layer1.png" id="layer1" >
+    <img src="image/layer2.png" id="layer2" >
+    <img src="image/layer3.png" id="layer3" >
+    <img src="image/layer4.png" id="layer4" >
+
+    <!-- audioi -->
+    <audio src="po.mp3" autoplay id="audio"></audio>
+    <audio src="gun.mp3" id="shoot"></audio>
+    <audio src="./back.mp3" id="backgr"></audio>
+</div>
+
+    <script src="script.js"></script>
+  
+</body>
+</html>

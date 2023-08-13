@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #000;
+    /* background: url('image/bgSpace.jpg'); */
+    background-size: cover;
+}
+#myCanvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aqua;
+    border: 2px black solid;
+    font-family: 'Edu TAS Beginner', cursive;
+    opacity: 99%;
+    -webkit-box-shadow: 10px -1px 300px 148px rgba(134,157,227,0.4);
+    -moz-box-shadow: 10px -1px 300px 148px rgba(134,157,227,0.8);
+    box-shadow: 10px -1px 300px 148px rgba(236, 225, 220, 0.8),
+    19px -1px 300px 148px rgba(24, 27, 240, 0.8);
+}
+#layer1 ,#layer2,#layer3,#layer4, #player, #angler2, #angler1, #lucky, #gears, #projectile{
+    display: none;
+}
+.img{
+    display: none;
+}
